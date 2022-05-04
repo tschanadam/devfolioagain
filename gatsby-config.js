@@ -3,73 +3,64 @@ module.exports = {
     // Site URL for when it goes live
     siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'Kat Tschan',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Kat Tschan | Developer`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `I code cool things. she/her 🏳️‍⚧️`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    author: `@tschankat`,
     // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
-    // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    github: `https://github.com/tschanadam`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `I'm a high school student looking to go into coding later. Thanks for looking at my portfolio!`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name: 'Cryptoclickerz',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Cookie clicker, but with actual crypto! Link may or may not work at times due to development.',
+        link: 'https://cryptoclickerz.com',
       },
       {
-        name: 'ChromeExtensionKit',
+        name: 'mcmd',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
+          '[In progress] The easiest way to set up your Minecraft server, without a web GUI.',
+        link: 'https://github.com/tschanadam/mcmd'
       },
       {
-        name: 'Another Cool Project',
+        name: 'Gamesrepo',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          '[Early development] A repository dedicated to preserving games of all types and generations.'
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Neoncraft Minecraft Server',
+        description: 'Developer and Founding Admin, March 2020 - June 2020'
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Freelancer',
+        description: 'Freelancing all sorts of Minecraft Things - June 2020 - Present',
+        link: 'https://kattschan.me',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
-        name: 'Languages & Frameworks',
+        name: 'Server Softwares for Minecraft',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'Bukkit, Spigot, Paper, Tuinity, Purpur',
       },
       {
-        name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        name: 'Server Things',
+        description: 'Bash scripting, Remote Management, Security',
       },
       {
         name: 'Other',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'Docker, Amazon Web Services (AWS), Azure, Google Cloud Platform(GCP), Oracle Cloud',
       },
     ],
   },
